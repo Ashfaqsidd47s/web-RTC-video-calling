@@ -1,0 +1,47 @@
+.videoContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.videoPlayer{
+    display: none;
+    background-color: black;
+    width: 100%;
+    height: 340px;
+}
+
+.messageContainer{
+    align-self: center;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    border: 1.5px solid black;
+    border-radius: calc(0.5rem - 2px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.inputContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: calc(100% - 1.7rem);
+    padding: 0.85rem;
+    border: 1px solid gray;
+    border-radius: calc(0.5rem - 2px);
+}
+.submitBtn{
+    padding: 0.84rem;
+    width: 140px;
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+    border-radius: calc(0.5rem - 2px);
+    cursor: pointer;
+}
+.submitBtn:hover{
+    background-color: rgb(154, 252, 219);
+}

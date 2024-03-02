@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="videoContainer">
+        <video src="" class="videoPlayer" id="user1" autoplay playsinline ></video>
+        <video src="" class="videoPlayer" id="user2" playsinline ></video>
+    </div>
+    <form class="messageContainer" id="messageForm">
+        <div class="inputContainer">
+            <input type="text" id="messageInput">
+        </div>
+        <button type="submit" class="submitBtn">SEND</button>
+    </form>
+    <p id="message"></p>
+</body>
+<script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+<script src="./testMain.js"></script>
+</html>
